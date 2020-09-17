@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #F2BBBB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+    text-align: center;
+    color: #BF9821;
+    margin-bottom: 10px;
+}
+header {
+    background-color:#BF0449;
+    height: 80px;
+}
+.menu ul li {
+    font-size: 20px;
+    text-align: center;
+    display: inline;
+}
+.menu ul li a {
+    text-decoration: none;
+    padding-top: 28px;
+    padding-left: 50px;
+    display: inline-block;
+    color: #BF9821;
+}
+h2 {
+    color: #DB3E60;
+    text-align: center;
+    margin-top: 8px;
+}
+
+/*Capa do Site */
+.meio img {
+    width: 800px;
+    height: 500px; 
+    padding-left: 250px;
+    margin-top: 30px;
+}
+#decricao {
+    color: #DB3E60;
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+}
+
+/*Estoque*/
+.sabores {
+    border: solid 5px #BF9821;
+    margin-top: 10px;
+    margin-left: 300px;
+}
+.sabores tr img {
+    width: 90px;
+}
+.sabores tr th {
+    color: #DB3E60;
+    text-align: center;
+    padding-left: 10px;
+}
+.sabores tr td {
+    border: solid 4px #BF9821;
+    text-align: center;
+}
+
+/*Produto */
+form {
+    background-color: #BF726B;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+/*Funcionarios */
+ul li {
+    text-align: center;
+    font-size: 23px;
+    margin: 12px;
+    color: #BF9821;
+}
+
+
+
+/*Roda pé */
+footer {
+    background-color:#BF0449;
+    height: 130px;
+}
+footer p {
+    color: #BF9821;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rodape img {
+    width: 40px;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-left: 100px;
+}
