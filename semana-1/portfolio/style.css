@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFC1B3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Menu de Todas as Páginas */
+header{
+    background-color: #7F6059;
+    height: 75px;
+}
+ header ul {
+    list-style:none;
+}
+header ul li {
+    display: inline;
+    float: left;
+    font-size: 27px;
+    margin-left: 110px;
+    padding-top: 45px;
+}
+header ul li a{
+    display: block;
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+header ul li a:hover {
+    color: #e5badb;
+}
+
+/* Banner */
+.meio h1 {
+    color: #7F7F7F;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    font-size: 55px;
+    margin-right: 175px;
+    margin-top: 230px;
+}
+.meio img {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+hr {
+	border: 0;
+    border-top: 3px solid #000;
+    margin-top: 560px;
+}
+#linha {
+    border: 0;
+    border-top: 3px solid #000;
+    margin-top: 20px;
+}
+
+
+/* Portgolio */
+.proj-port {
+    height: 405px;
+}
+.proj-port h2 {
+    margin-top: 30px;
+    text-align: center;
+}
+.proj-port p {
+    display: inline-block;
+    float: left;
+    text-align: center;
+    margin: 20px;
+}
+.proj-port img {
+    width: 530px;
+    margin-left: 410px;
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px;
+    color: #7F7F7F;
+}
+
+/* Formulario */
+form {
+    margin-top: 20px;
+    margin-left: 550px;
+    margin-bottom: 15px;
+}
+button {
+    margin-left: 5px;
+    color: #CC9A8F;
+}
+
+/* Anna Belle */
+#annab {
+    width: 700px;
+    margin-left: 300px;
+}
+#parag-ann {
+    text-align: center;
+    color: #3f1313;
+    margin: 15px;
+}
+
+/*Habilidade */
+.lista1 ol li {
+    margin-left: 40px;
+}
+.lista1 p{
+    margin: 5px;
+    color: #7F7F7F;
+}
+
+/*PROJETOS */
+ol li{
+    margin: 20px;
+}
+
+
+
+/* Rodape*/
+footer {
+    height: 90px;
+    margin-top: 15px;
+    background-color: #CC9A8F;
+}
+footer img {
+    width: 40px;
+    margin: 10px;
+}
